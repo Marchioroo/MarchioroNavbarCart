@@ -11,7 +11,7 @@ const NavBar = () => {
         <li className="hover:underline cursor-pointer">Sobre</li>
         <li className="hover:underline cursor-pointer">Contato</li>
       </ul>
-      <CartWidget /> {/* Incluindo o CartWidget */}
+      <CartWidget /> {}
     </nav>
   );
 };
